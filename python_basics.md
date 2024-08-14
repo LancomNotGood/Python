@@ -63,4 +63,48 @@ Also, wenn ich meiner variable eine Zahl zuweisen möchte mache ich einfach eine
 - und so funktioniert das mit dem ganzem anderem kram größtenteils auch
     - Kommazahl einfach als Kommazahl dahinter schreiben
     - Strings funktionieren nur mit Anführungszeichen "string" "oder auch mehrere wörter"
-    - 
+    - jetzt kann ich natürlich auch sowas wie a - b machen oder a + b:
+ 
+```
+one = 1
+two = 2
+three = one + two
+print(three)
+
+hello = "hello"
+world = "world"
+helloworld = hello + " " + world
+print (helloworld)
+```
+das Ergebnis wäre folgendes:
+```
+lelsner@pythonfodummies:~$ python3 example.py
+3
+hello world
+```
+
+- Wenn man solche sachen macht, müssen die Datentypen aber natürlich immer gleich sein, also ich kann jetzt kein String + Number kram machen
+- 
+
+## Lists
+- Lists sind quasi wie arrays, diese können jede Form und Anzahl von Variablen enthalten
+
+- Eine Liste erstelle ich mit eckigen klammer `[]
+- in die Eckige Klammer kommen dann meine Werte rein: meine_einkaufsliste = ["äpfel", "birnen", "Brot"]
+- ausgeben kann ich das ganze mit folgendem Befehl: print(meine_einkaufsliste[0])
+- der wert in den Eckigen Klammern gibt an welcher Wert ausgegeben werden soll, **WICHTIG:ES GEHT IN DER LISTE BEI 0 LOS**
+
+
+
+```
+mylist = []
+mylist.append(1)
+mylist.append(2)
+mylist.append(3)
+print(mylist[1])
+print(mylist[2])
+print(mylist[3])
+
+for x in mylist:
+    print(x)
+```
