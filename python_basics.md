@@ -92,7 +92,7 @@ hello world
 - Eine Liste erstelle ich mit eckigen klammer `[]`
 - in die Eckige Klammer kommen dann meine Werte rein: meine_einkaufsliste = ["äpfel", "birnen", "Brot"]
 - ausgeben kann ich das ganze mit folgendem Befehl: print(meine_einkaufsliste[0])
-- der wert in den Eckigen Klammern gibt an welcher Wert ausgegeben werden soll, **WICHTIG:ES GEHT IN DER LISTE BEI 0 LOS**
+- der wert in den Eckigen Klammern gibt an welcher Wert ausgegeben werden soll, `**WICHTIG:ES GEHT IN DER LISTE BEI 0 LOS**`
 
 
 
