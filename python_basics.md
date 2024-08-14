@@ -94,8 +94,12 @@ hello world
 - ausgeben kann ich das ganze mit folgendem Befehl: print(meine_einkaufsliste[0])
 - der wert in den Eckigen Klammern gibt an welcher Wert ausgegeben werden soll, `**WICHTIG:ES GEHT IN DER LISTE BEI 0 LOS**`
 
-
-
+Hier einmal ein Beispiel:
+```
+meine_einkaufsliste = ["Eier","Schnaps","Schokolade"]
+print(meine_einkaufsliste[2])
+```
+- Man kann natürlich auch sachen in dieser Liste hinzufügen, das mache ich mit dem "append" statement: meine_einkaufsliste.´append`("butter")
 ```
 mylist = []
 mylist.append(1)
